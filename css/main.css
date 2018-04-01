@@ -12,25 +12,27 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 1px 0;
 }
 
 .masthead {
   background-color: #79756f;
   text-align: center;
   width: 100%;
-  padding: .75em;
-  border-top: 3px solid #595652;
-  border-bottom: 3px solid #595652;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 4px solid #595652;
+  border-bottom: 4px solid #595652;
   margin: 0;
 }
 
 h1 {
   font-family: Bevan, serif;
-  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 1.2;
   color: #fff;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -46,14 +48,14 @@ ul li {
   text-decoration: none;
   border-radius: .3em;
   width: auto;
+  margin-top: .3em;
 }
 
 a {
   display: block;
-  font-family: sans-serif;
   color: #fff;
   text-decoration: none;
-  padding: .75em;
+  padding: .6em .75em;
   margin-left: auto;
   margin-right: auto;
 }
